@@ -29,8 +29,8 @@ def md_select_scrapper():
     driver = webdriver.Chrome('C:\\chromedriver.exe')
 
     driver.get('https://www.mdselect.ca/MDSelectGold/login.aspx?ReturnUrl=%2fmdselectgold%2fSearchDesigner.aspx')
-    driver.find_element_by_id('ContentPlaceHolder1_Login1_UserName').send_keys('shafi@rogers.com')
-    driver.find_element_by_id ('ContentPlaceHolder1_Login1_Password').send_keys('Asif2019')
+    driver.find_element_by_id('ContentPlaceHolder1_Login1_UserName').send_keys('XXX@XXX.com')
+    driver.find_element_by_id ('ContentPlaceHolder1_Login1_Password').send_keys('XXXX')
     login = driver.find_element_by_id('ContentPlaceHolder1_Login1_LoginButton')
     login.click()
 
